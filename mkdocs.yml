@@ -2,7 +2,7 @@ site_name: DSIPTS-PTF Documentation
 site_description: Documentation for DSIPTS-PTF project
 
 theme:
-  name: material
+  name: mkdocs
 
 repo_name: DSIP-FBK/DSIPTS_PTF
 repo_url: https://github.com/DSIP-FBK/DSIPTS_PTF

@@ -14,7 +14,11 @@ mkdocs:
   configuration: mkdocs.yml
 
 # Install requirements so MkDocs themes/plugins are available on RTD
-# python:
-#   install:
-#     - requirements: requirements.txt
-#     - requirements: docs/requirements.txt
+python:
+  install:
+    # - requirements: requirements.txt
+    - requirements: docs/requirements.txt
+    - extra_requirements:
+        - docs
+        - mkdocs
+        - mkdocs-material
